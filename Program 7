@@ -1,0 +1,22 @@
+int main()
+{
+    int n,o,start,end,i,j,count=0;
+    scanf("%d %d", &n, &o);
+    int a[n];
+    for(i=0;i<n;i++)
+    {
+        for(j=0;j<o;j++)
+        {
+            scanf("%d %d", &start, &end);
+            for(i=0;i<n;i++)
+            {
+                if (a[n]>=start && a[i]<=end)
+                {
+                    count++;
+                }
+            } 
+            printf("%d", count);
+        }
+    }
+    return 0;
+}
