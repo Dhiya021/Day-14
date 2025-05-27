@@ -1,0 +1,13 @@
+int main()
+{
+    int w,x,y,beforeprof,afterprof,storage;
+    scanf("%d %d %d", &w, &x, &y);
+    beforeprof=w*x;
+    afterprof=beforeprof-w*y;
+    storage=afterprof-100;
+    printf("%d", storage);
+    
+    return 0;
+
+}
+
